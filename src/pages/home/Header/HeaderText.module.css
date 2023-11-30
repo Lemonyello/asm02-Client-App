@@ -1,0 +1,21 @@
+.header-text {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.header-text h1 {
+  margin-bottom: 32px;
+}
+
+.header-text p {
+  margin-bottom: 24px;
+}
+
+.header-text button {
+  margin-left: 0;
+  background-color: var(--color-button);
+  color: var(--color-text-contrast);
+  padding: 16px;
+  border: none;
+}

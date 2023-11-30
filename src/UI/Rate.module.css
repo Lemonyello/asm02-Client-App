@@ -1,0 +1,6 @@
+.rate {
+  padding: 4px 8px;
+  background-color: var(--color-primary);
+  color: var(--color-text-contrast);
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.nav-item {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.nav-item i {
+  margin-right: 8px;
+}
+
+.active {
+  border: 1px solid white;
+  border-radius: 18px;
+}

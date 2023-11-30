@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.header h2 {
+  color: var(--color-button);
+  width: 80%;
+}
+
+.rate {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+.rate p {
+  font-weight: bold;
+}

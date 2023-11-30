@@ -1,0 +1,16 @@
+.type-list-item {
+  width: 18%;
+}
+
+.type-list-item img {
+  width: 100%;
+  border-start-end-radius: 16px;
+  border-start-start-radius: 16px;
+  object-fit: cover;
+  height: 180px;
+}
+
+.type-list-item h6 {
+  font-size: 18px;
+  color: var(--color-brown);
+}

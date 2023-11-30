@@ -1,0 +1,25 @@
+.search-list-item {
+  display: flex;
+  margin-bottom: 24px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.search-list-item img {
+  width: 30%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.content-container {
+  width: 66%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 80%;
+  gap: 32px;
+}

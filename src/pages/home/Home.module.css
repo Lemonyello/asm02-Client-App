@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #003580;
+  --color-text-contrast: white;
+  --color-button: #0071c2;
+  --color-yellow: #febb02;
+  --color-brown: #5f534b;
+  --color-green: #008009;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}

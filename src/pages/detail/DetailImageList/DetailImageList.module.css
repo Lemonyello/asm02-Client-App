@@ -1,0 +1,13 @@
+.detail-image-list {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.detail-image-list img {
+  width: 32.4%;
+}

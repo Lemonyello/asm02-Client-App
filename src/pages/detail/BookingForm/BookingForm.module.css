@@ -1,0 +1,47 @@
+.form {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form h2 {
+  margin-bottom: 12px;
+}
+
+.form h3 {
+  margin-bottom: 16px;
+}
+
+.form > select {
+  width: 30%;
+  padding: 12px;
+  font-size: 14px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 6px;
+  margin-right: 72px;
+}
+
+.form > select:focus {
+  outline: none;
+}
+
+.form > button {
+  background-color: rgb(25, 86, 255);
+  color: white;
+  border: none;
+  padding: 16px 56px;
+  font-size: 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.form > span {
+  margin-left: 32px;
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.container {
+  background-color: var(--color-primary);
+}
+
+.header {
+  position: relative;
+  padding-bottom: 48px;
+  color: var(--color-text-contrast);
+}

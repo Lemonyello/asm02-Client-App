@@ -1,0 +1,11 @@
+.container {
+  background-color: var(--color-primary);
+  padding-top: 16px;
+  padding-bottom: 64px;
+}
+
+.nav-bar {
+  color: var(--color-text-contrast);
+  width: 90%;
+  margin: 0 auto;
+}

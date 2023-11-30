@@ -1,0 +1,56 @@
+.inputs {
+  border: 3px solid var(--color-yellow);
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-text-contrast);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  width: 90%;
+}
+
+.inputs input {
+  font-family: Arial, FontAwesome;
+  border: none;
+  font-size: 16px;
+}
+
+.inputs > input {
+  width: 25%;
+}
+
+.inputs > div {
+  width: 25%;
+  display: flex;
+  gap: 6px;
+}
+
+.inputs > div input {
+  width: 30%;
+}
+
+.inputs input::placeholder {
+  color: #d3d3d3;
+}
+
+.inputs input:focus {
+  outline: none;
+}
+
+.button {
+  background-color: var(--color-button);
+  color: var(--color-text-contrast);
+  padding: 16px;
+  border: none;
+}
+
+.date {
+  position: absolute;
+  bottom: 0;
+  transform: translate(-12%, 100%);
+  width: 29% !important;
+}

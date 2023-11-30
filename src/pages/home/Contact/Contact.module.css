@@ -1,0 +1,32 @@
+.container {
+  background-color: var(--color-primary);
+  padding: 48px;
+  margin-bottom: 32px;
+}
+
+.subscription {
+  text-align: center;
+
+  color: var(--color-text-contrast);
+}
+
+.subscription h2 {
+  margin-bottom: 24px;
+  font-size: 36px;
+}
+
+.subscription p {
+  margin-bottom: 24px;
+}
+
+.subscription input {
+  margin-right: 16px;
+  border: none;
+  height: 48px;
+  border-radius: 8px;
+  width: 20%;
+}
+
+.subscription button {
+  height: 48px;
+}

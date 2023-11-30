@@ -1,0 +1,102 @@
+.transactions {
+  width: 90%;
+  margin: 16px auto 64px;
+}
+
+.transactions h2 {
+  margin-bottom: 16px;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(192, 192, 192);
+  border-bottom: none;
+}
+
+.table-row:nth-child(odd) {
+  background-color: rgb(237, 237, 237);
+}
+
+.table-row:last-child {
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.table-row p {
+  padding: 8px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(78, 140, 255);
+  align-items: center;
+  border: 1px solid rgb(192, 192, 192);
+  border-bottom: none;
+}
+
+.table-header h5 {
+  color: white;
+  font-size: 17px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.index {
+  width: 5%;
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.hotel {
+  width: 30%;
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.room {
+  width: 10%;
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.date {
+  width: 20%;
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.price {
+  width: 7%;
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.payment {
+  width: 13%;
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.status {
+  width: 12%;
+}
+
+.booked {
+  background-color: rgb(255, 147, 147);
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  color: green;
+}
+
+.checkin {
+  background-color: rgb(49, 243, 62);
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  color: green;
+}
+
+.checkout {
+  background-color: rgb(214, 214, 214);
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  color: green;
+}

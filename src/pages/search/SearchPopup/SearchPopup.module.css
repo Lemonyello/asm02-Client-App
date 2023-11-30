@@ -1,0 +1,52 @@
+.search-popup {
+  background-color: var(--color-yellow);
+  height: fit-content;
+  width: 23%;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.search-popup h2 {
+  color: var(--color-brown);
+}
+
+.search-popup p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.search-popup input:focus {
+  outline: none;
+}
+
+.search-popup input:not(.options input) {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.options div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.options label {
+  color: gray;
+  font-size: 12px;
+}
+
+.options input {
+  width: 48px;
+}
+
+.search-popup button {
+  border: none;
+  padding: 16px;
+  color: var(--color-text-contrast);
+  background-color: var(--color-button);
+}
